@@ -19,6 +19,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: [],
+  modules: ['@nuxt/eslint'],
   css: ["devextreme/dist/css/dx.light.css", "~/assets/css/main.css"],
 });

@@ -1,0 +1,40 @@
+image: node:20.18.0
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+stages:
+  - install
+  - lint
+  - build
+
+install_dependencies:
+  stage: install
+  script:
+    - npm ci
+  only:
+    changes:
+      - package.json
+      - package-lock.json
+      - .gitlab-ci.yml
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+
+lint:
+  stage: lint
+  script:
+    - npm ci
+    - npm run lint
+
+build:
+  stage: build
+  script:
+    - npm ci
+    - npm run build
+  artifacts:
+    paths:
+      - .output/

@@ -1,15 +1,17 @@
+import { defineNuxtConfig } from "nuxt/config";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  srcDir: 'src/',
+  srcDir: "src/",
   vite: {
     vue: {
-      customElement: true
+      customElement: true,
     },
     vueJsx: {
-      mergeProps: true
-    }
+      mergeProps: true,
+    },
   },
-  compatibilityDate: '2025-05-15',
+  compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
   postcss: {
     plugins: {
@@ -18,5 +20,5 @@ export default defineNuxtConfig({
     },
   },
   modules: [],
-  css: ['~/assets/css/main.css'],
-})
+  css: ["devextreme/dist/css/dx.light.css", "~/assets/css/main.css"],
+});

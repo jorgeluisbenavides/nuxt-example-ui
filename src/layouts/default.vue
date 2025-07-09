@@ -1,6 +1,6 @@
 <!-- src/layouts/default.vue -->
 <template>
-  <div class="dark">
+  <div class="p-4">
     <header>
       <h1>Mi sitio</h1>
     </header>

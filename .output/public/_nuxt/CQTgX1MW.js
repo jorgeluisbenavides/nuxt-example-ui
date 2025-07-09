@@ -1,0 +1,1 @@
+import{_ as o,x as r,y as l,z as s,O as n}from"./DRfaglNI.js";const a={},d={class:"p-4"};function f(t,e){return l(),r("div",d,[e[0]||(e[0]=s("header",null,[s("h1",null,"Mi sitio")],-1)),n(t.$slots,"default"),e[1]||(e[1]=s("footer",null,[s("p",{class:"text-red-500"},"© 2025")],-1))])}const u=o(a,[["render",f]]);export{u as default};

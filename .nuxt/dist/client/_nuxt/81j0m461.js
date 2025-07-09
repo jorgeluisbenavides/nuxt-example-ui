@@ -1,1 +1,0 @@
-import{_ as o,y as l,z as r,A as s,L as n}from"./DxMaeh7b.js";const a={},d={class:"dark"};function f(t,e){return r(),l("div",d,[e[0]||(e[0]=s("header",null,[s("h1",null,"Mi sitio")],-1)),n(t.$slots,"default"),e[1]||(e[1]=s("footer",null,[s("p",null,"© 2025")],-1))])}const i=o(a,[["render",f]]);export{i as default};

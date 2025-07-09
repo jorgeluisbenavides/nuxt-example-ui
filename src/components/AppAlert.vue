@@ -1,5 +1,5 @@
 <template>
-  <span class="bg-yellow p-2">
+  <span class="text-blue-800 p-4">
     Benavides
   </span>
 </template>

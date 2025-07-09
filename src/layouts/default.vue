@@ -9,7 +9,7 @@
     <slot />
 
     <footer>
-      <p>© 2025</p>
+      <p class="text-red-500">© 2025</p>
     </footer>
   </div>
 </template>

@@ -1,0 +1,1 @@
+{"version":3,"file":"index-D_f8_vxC.js","sources":["../../../../src/components/AppAlert.vue"],"sourcesContent":["<template>\n  <span class=\"bg-yellow p-2\">\n    Benavides\n  </span>\n</template>\n"],"names":["_ssrRenderAttrs","_mergeProps"],"mappings":";;;;;;;;;;;;;;;;;;AACQ,QAAA,QAAAA,eAAAC,WAAA,EAAA,OAAM,mBAAe,MAAA,CAAA,CAAA,qBAAA;;;;;;;;;;;;;;;;;;;;;;;"}

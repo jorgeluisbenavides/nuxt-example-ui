@@ -1,0 +1,1 @@
+import{_ as n,y as o,z as t,A as r,C as _}from"./DxMaeh7b.js";const a={},p={class:"bg-yellow p-2"};function d(c,e){return t(),o("span",p," Benavides ")}const i=n(a,[["render",d]]),l={};function f(c,e){const s=i;return t(),o("div",null,[e[0]||(e[0]=r("h1",{class:"--ui-primary p-4"},"Welcome to the homepage of index",-1)),_(s)])}const u=n(l,[["render",f]]);export{u as default};
